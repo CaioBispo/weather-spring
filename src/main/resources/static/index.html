@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Previsão do Tempo</title>
+    <script src="js/jquery.js" type="text/javascript"></script>
+    <script src="js/index.js" type="text/javascript"></script>
+    <link href="css/index.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+
+    <form id="form-previsao">
+        <div>
+            <label for="cidade">Cidade</label>
+            <input type="text" id="cidade" />
+        </div>
+        <div>
+            <input type="submit" value="Buscar" />
+        </div>
+    </form>
+
+
+    <div id="previsao">
+        <div id="hoje" style="border-style: solid;">
+            <div>
+                <span class="data"></span>
+            </div>
+            <div>
+                <span class="temperatura-maxima"></span>
+            </div>
+            <div>
+                <span class="temperatura-minima"></span>
+            </div>
+            <div>
+                <img class="icone">
+            </div>
+            <div>
+                <span class="condicao"></span>
+            </div>
+        </div>
+        <div id="semana">
+
+        </div>
+    </div>
+
+
+</body>
+
+</html>
